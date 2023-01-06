@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Aug 30 14:17:01 2020
+# Process ID: 16668
+# Current directory: C:/Users/vig_s/OneDrive/Documents/ZyboProjects/Year3Design/ZyboAudio
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15208 C:\Users\vig_s\OneDrive\Documents\ZyboProjects\Year3Design\ZyboAudio\ZyboAudio.xpr
+# Log file: C:/Users/vig_s/OneDrive/Documents/ZyboProjects/Year3Design/ZyboAudio/vivado.log
+# Journal file: C:/Users/vig_s/OneDrive/Documents/ZyboProjects/Year3Design/ZyboAudio\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vig_s/OneDrive/Documents/ZyboProjects/Year3Design/ZyboAudio/ZyboAudio.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/vig_s/OneDrive/Documents/ZyboProjects/Year3Design/ZyboAudio/ZyboAudio.runs/impl_1/TopSys.bit} [lindex [get_hw_devices xc7z010_1] 0]
+current_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+reset_run synth_1
+reset_run clk_wiz_0_synth_1
+reset_run dist_mem_gen_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROGRAM.FILE {C:/Users/vig_s/OneDrive/Documents/ZyboProjects/Year3Design/ZyboAudio/ZyboAudio.runs/impl_1/TopSys.bit} [lindex [get_hw_devices xc7z010_1] 0]
+program_hw_devices [lindex [get_hw_devices xc7z010_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]

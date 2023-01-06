@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Feb 12 15:55:45 2018
+# Process ID: 10820
+# Current directory: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10528 C:\Users\Vignesh\Documents\FinalYearProject\Zybo_Audio\ZyboAudio\ZyboAudio.xpr
+# Log file: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/vivado.log
+# Journal file: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.xpr

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Aug 30 14:17:57 2020
+# Process ID: 11308
+# Current directory: C:/Users/vig_s/OneDrive/Documents/ZyboProjects/Year3Design/ZyboAudio/ZyboAudio.runs/clk_wiz_0_synth_1
+# Command line: vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file: C:/Users/vig_s/OneDrive/Documents/ZyboProjects/Year3Design/ZyboAudio/ZyboAudio.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: C:/Users/vig_s/OneDrive/Documents/ZyboProjects/Year3Design/ZyboAudio/ZyboAudio.runs/clk_wiz_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP clk_wiz_0, cache-ID = 05c59771d22c92f7.

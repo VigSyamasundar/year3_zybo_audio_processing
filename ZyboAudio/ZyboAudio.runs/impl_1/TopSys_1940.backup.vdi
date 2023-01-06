@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Feb 12 20:42:11 2018
+# Process ID: 1940
+# Current directory: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1
+# Command line: vivado.exe -log TopSys.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TopSys.tcl -notrace
+# Log file: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/TopSys.vdi
+# Journal file: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TopSys.tcl -notrace
+
+*** Halting run - EA reset detected ***
+
+
+
+    while executing
+"start_step init_design"
+    (file "TopSys.tcl" line 48)
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 12 20:42:16 2018...

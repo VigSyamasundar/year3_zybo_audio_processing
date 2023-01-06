@@ -1,0 +1,1110 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 11456
+
+Current time: 	2/12/18 3:56:35 PM GMT
+Time zone: 	Greenwich Mean Time (Europe/London)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	Vignesh
+User home directory: C:/Users/Vignesh
+User working directory: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: D:/Xilinx/Vivado
+RDI data directory: D:/Xilinx/Vivado/2016.4/data
+RDI bin directory: D:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Vignesh/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Vignesh/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	222 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 517 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Vignesh\Documents\FinalYearProject\Zybo_Audio\ZyboAudio\ZyboAudio.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 37 MB (+36525kb) [00:00:04]
+// [Engine Memory]: 427 MB (+296196kb) [00:00:04]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 40 MB (+1410kb) [00:00:05]
+// [Engine Memory]: 484 MB (+37309kb) [00:00:05]
+// [GUI Memory]: 53 MB (+11439kb) [00:00:06]
+// [Engine Memory]: 509 MB (+1404kb) [00:00:06]
+// Tcl Message: open_project C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 520 MB. GUI used memory: 37 MB. Current time: 2/12/18 3:56:36 PM GMT
+// Project name: ZyboAudio; location: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio; part: xc7z010clg400-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), Gain - Gain (Distortion.v)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), Gain - Gain (Distortion.v)]", 2, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// [GUI Memory]: 59 MB (+3385kb) [00:00:14]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), Gain - Gain (Distortion.v)]", 2, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Delay (Delay.v)]", 7, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Delay (Delay.v)]", 7, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("Delay.v", 663, 344); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 535 MB (+142kb) [00:01:22]
+// [GUI Memory]: 64 MB (+1843kb) [00:02:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 540 MB. GUI used memory: 41 MB. Current time: 2/12/18 3:59:11 PM GMT
+// [GUI Memory]: 68 MB (+859kb) [00:04:57]
+// [GUI Memory]: 72 MB (+99kb) [00:07:37]
+// [GUI Memory]: 76 MB (+310kb) [00:07:47]
+// Elapsed time: 530 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Distortion.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// [GUI Memory]: 82 MB (+2476kb) [00:09:37]
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Delay.v", 68, 64); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Distortion.v", 327, 150); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Distortion.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Distortion.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+typeControlKey((HResource) null, "Delay.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 83, 62); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 290, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 207, 193); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Distortion.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Delay.v", 269, 120); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 90 seconds
+selectCodeEditor("Delay.v", 118, 114); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 95, 112); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 134, 134); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("Delay.v", 253, 76); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 254, 101); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 228, 97, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectCodeEditor("Delay.v", 218, 100); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 251, 101); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 287, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 294, 167); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 335, 186); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 293, 162); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 540, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("Delay.v", 331, 169); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 291, 190); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 300, 184); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 89 MB (+3503kb) [00:12:55]
+// Elapsed time: 23 seconds
+selectCodeEditor("Delay.v", 253, 324); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Delay.v", 137, 200); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 135, 223); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 113, 212); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 94 MB (+546kb) [00:13:26]
+// Elapsed time: 469 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Distortion.v", 130, 86); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Distortion.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 136 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("Delay.v", 213, 263); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 196, 220); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 219, 287); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 106 MB (+7098kb) [00:24:46]
+// Elapsed time: 47 seconds
+selectCodeEditor("Delay.v", 259, 236); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 47 seconds
+selectCodeEditor("Delay.v", 176, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Delay.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Delay.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 288, 355); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 255, 306); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 253, 303, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Delay.v", 243, 294); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 79 seconds
+selectCodeEditor("Delay.v", 235, 357); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 242, 344); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 250, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 144, 285); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 111 MB (+426kb) [00:27:10]
+typeControlKey(null, null, 'z');
+selectCodeEditor("Delay.v", 278, 341); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("Delay.v", 293, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 300, 496); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 305, 457); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 243, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 259, 353); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 284, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 304, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectCodeEditor("Delay.v", 340, 338); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("Delay.v", 354, 340); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 117 MB (+301kb) [00:28:43]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), I2SAudio - I2SAudio (I2SAudio.v)]", 5, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), I2SAudio - I2SAudio (I2SAudio.v)]", 5, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("I2SAudio.v", 551, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 43 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Delay.v", 254, 324); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 286, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 551 MB. GUI used memory: 76 MB. Current time: 2/12/18 4:29:11 PM GMT
+// Elapsed time: 200 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 560 MB. GUI used memory: 78 MB. Current time: 2/12/18 4:32:26 PM GMT
+// Elapsed time: 236 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 285 seconds
+selectCodeEditor("Delay.v", 364, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Delay.v", 398, 337); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 377, 390); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 364, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 104, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 124 MB (+878kb) [00:41:48]
+selectCodeEditor("Delay.v", 207, 330); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 366, 363); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 367, 356); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 363, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Delay.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 367, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Delay.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 281, 343); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 396, 359); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("Delay.v", 293, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 574 MB (+13011kb) [00:43:46]
+// Elapsed time: 108 seconds
+selectCodeEditor("Delay.v", 362, 433); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("Delay.v", 352, 439); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 291, 469); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 313, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 52, 418); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 369, 424); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("Delay.v", 406, 359); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 316 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 36 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 3); // y:i (D:JPanel, cd:JFrame)
+// y:aO (cd:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // y:aO (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v)]", 4, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v)]", 4, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 3, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 3, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// L:bt (cd:JFrame):  Re-customize IP : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 87 MB. Current time: 2/12/18 4:48:36 PM GMT
+// [Engine Memory]: 645 MB (+43720kb) [00:52:08]
+// [Engine Memory]: 747 MB (+73479kb) [00:52:13]
+// p:g (cd:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // L:bt (cd:JFrame)
+// Elapsed time: 82 seconds
+dismissDialog("Re-customize IP"); // p:g (cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// [GUI Memory]: 131 MB (+999kb) [00:53:39]
+selectCodeEditor("TopSys.v", 152, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bt:g (cd:JFrame):  IP Catalog : addNotify
+// 'a' command handler elapsed time: 3 seconds
+dismissDialog("IP Catalog"); // bt:g (cd:JFrame)
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", "clocki"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cd:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:5.3", 3, "Clocking Wizard", 0, false); // M:ab (JViewport:JComponent, cd:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:5.3", 3); // M:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:5.3", 3, "Clocking Wizard", 0, false, false, false, false, false, true); // M:ab (JViewport:JComponent, cd:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l:bt (cd:JFrame):  Customize IP : addNotify
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [GUI Memory]: 144 MB (+6513kb) [00:53:58]
+// p:g (cd:JFrame): Customize IP: addNotify
+dismissDialog("Customize IP"); // l:bt (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 789 MB. GUI used memory: 110 MB. Current time: 2/12/18 4:50:27 PM GMT
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cP:g (C:JPanel, p:g)
+// [Engine Memory]: 789 MB (+4790kb) [00:54:01]
+// Elapsed time: 102 seconds
+setText("CLKOUT1 REQUESTED OUT FREQ", "100.000"); // M:ak (cQ:L, p:g)
+setText("CLKOUT1 REQUESTED OUT FREQ", "100.000"); // M:ak (cQ:L, p:g)
+// Elapsed time: 131 seconds
+setText("CLKOUT1 REQUESTED OUT FREQ", "6.144"); // M:ak (cQ:L, p:g)
+selectCheckBox((HResource) null, "reset", false); // g:JCheckBox (bs:F, p:g): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "locked", false); // g:JCheckBox (bs:F, p:g): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Customize IP"); // p:g (cd:JFrame)
+// TclEventType: CREATE_IP_CORE
+// bt:g (cd:JFrame):  Customize IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: create_ip -name clk_wiz -vendor xilinx.com -library ip -version 5.3 -module_name clk_wiz_2 -dir c:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.srcs/sources_1/ip 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {6.144} CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false} CONFIG.MMCM_DIVCLK_DIVIDE {6} CONFIG.MMCM_CLKFBOUT_MULT_F {44.375} CONFIG.MMCM_CLKOUT0_DIVIDE_F {120.375} CONFIG.CLKOUT1_JITTER {571.196} CONFIG.CLKOUT1_PHASE_ERROR {386.048}] [get_ips clk_wiz_2] 
+// Tcl Message: generate_target {instantiation_template} [get_files c:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_2'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// at:q (cd:JFrame): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, at:q)
+// bt:g (cd:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  c:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_2'... 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_2'... INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_2'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_2'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all clk_wiz_2] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xci] -no_script -sync -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xci] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 8 clk_wiz_2_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 12 16:54:53 2018] Launched clk_wiz_2_synth_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/clk_wiz_2_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 799 MB. GUI used memory: 113 MB. Current time: 2/12/18 4:54:57 PM GMT
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_2 (clk_wiz_2.xci)]", 8, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_2 (clk_wiz_2.xci)]", 8, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// L:bt (cd:JFrame):  Re-customize IP : addNotify
+// p:g (cd:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // L:bt (cd:JFrame)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cP:g (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cP:g (C:JPanel, p:g)
+dismissDialog("Re-customize IP"); // p:g (cd:JFrame)
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // ab:aE
+// [GUI Memory]: 154 MB (+3341kb) [00:58:45]
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("TopSys.v", 133, 247); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("TopSys.v", 441, 309); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+selectCodeEditor("TopSys.v", 334, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 836 MB. GUI used memory: 129 MB. Current time: 2/12/18 4:55:41 PM GMT
+typeControlKey((HResource) null, "TopSys.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 23, 300); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 836 MB (+7850kb) [00:59:13]
+typeControlKey((HResource) null, "TopSys.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 62, 298); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 198, 304); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 270, 293); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 275, 376); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Delay.v", 72, 60); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 393, 319); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 171, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 128, 265); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 253, 257); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 248, 250); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("Delay.v", 271, 223); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("Delay.v", 183, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 346, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 241, 250); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 302, 344); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 119, 362); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 126, 364); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 385, 456); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("Delay.v", 59, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 268, 412); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 74 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// [GUI Memory]: 167 MB (+5391kb) [01:02:53]
+// Elapsed time: 51 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("TopSys.v", 34, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 176 MB (+196kb) [01:04:36]
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("TopSys.v", 121, 286); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "TopSys.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 275, 338); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 208, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "TopSys.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 225, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 231, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("TopSys.v", 297, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 298, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("TopSys.v", 446, 317); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 531, 317); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 685, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 685, 318, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("TopSys.v", 689, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 691, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 646, 376); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 575, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// [GUI Memory]: 185 MB (+278kb) [01:06:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 849 MB. GUI used memory: 134 MB. Current time: 2/12/18 5:02:36 PM GMT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TopSys.v", 620, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("TopSys.v", 696, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 696, 314, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("TopSys.v", 712, 359); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 708, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 825, 313); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 950, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 1072, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 1157, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 158, 96); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 141, 77); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("TopSys.v", 425, 290); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 164, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 9); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Zybo-Master.xdc]", 11, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Zybo-Master.xdc]", 11, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("Zybo-Master.xdc", 775, 229); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 528, 225); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 548, 226); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 554, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 552, 232, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Zybo-Master.xdc", 553, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 553, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 821, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 722, 361); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 771, 465); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 576, 462); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 561, 469); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Zybo-Master.xdc", 663, 423); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Zybo-Master.xdc", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("TopSys.v", 263, 170); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("TopSys.v", 51, 474); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 326, 359); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Delay.v", 120, 42); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 182, 189); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 175, 326); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 105, 141); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("TopSys.v", 282, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Delay.v", 314, 247); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Delay.v", 217, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 342, 381); // bF:I (JPanel:JComponent, cd:JFrame)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 2, false, true); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("TopSys.v", 422, 252); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("TopSys.v", 315, 117); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("TopSys.v", 559, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 232, 486); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 208, 488); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("TopSys.v", 732, 446); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 203 seconds
+selectCodeEditor("TopSys.v", 406, 344); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Mon Feb 12 17:09:32 2018] Launched synth_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/synth_1/runme.log [Mon Feb 12 17:09:32 2018] Launched impl_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/runme.log 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Zybo-Master.xdc", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 240 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Delay.v", 800, 547); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 756, 589); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 194 MB (+266kb) [01:24:18]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 205 MB (+389kb) [01:35:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 849 MB. GUI used memory: 160 MB. Current time: 2/12/18 5:32:40 PM GMT
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 1443 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+// Elapsed time: 451 seconds
+selectCodeEditor("Delay.v", 228, 566); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 557, 577); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 201 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 259 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// [GUI Memory]: 216 MB (+1062kb) [01:58:46]
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), Gain - Gain (Distortion.v)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), Gain - Gain (Distortion.v)]", 2, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), Gain - Gain (Distortion.v)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopSys (TopSys.v), Gain - Gain (Distortion.v)]", 2, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Distortion.v", 5); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Distortion.v", 234, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 97 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Distortion.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Delay.v", 238, 107); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 370, 317); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 284, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 3, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 126, 372); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 242, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 431, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Delay.v", 457, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 12 17:58:37 2018] Launched synth_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/synth_1/runme.log [Mon Feb 12 17:58:37 2018] Launched impl_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// Elapsed time: 236 seconds
+selectCodeEditor("Delay.v", 39, 462); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 849 MB. GUI used memory: 145 MB. Current time: 2/12/18 6:02:38 PM GMT
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 188 seconds
+selectCodeEditor("Delay.v", 182, 237); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("Delay.v", 106, 437); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 272, 431); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 104, 450); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 237, 470); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 238, 492); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 256, 550); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 57 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // u:K (t:D, cd:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bt:g (cd:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.4   **** Build date : Jan 23 2017-19:37:29     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279777766A 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/TopSys.bit} [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices xc7z010_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bt:g (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7z010_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/TopSys.bit} [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7z010_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("Delay.v", 192, 405); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 184, 421); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 119, 496); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 245, 559); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 204, 584); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 215, 516); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Zybo-Master.xdc", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "I2SAudio.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Distortion.v", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Distortion.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Delay.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopSys.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Distortion.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Delay.v", 66, 529); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 35, 551); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("Delay.v", 209, 451); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Mon Feb 12 18:09:48 2018] Launched synth_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/synth_1/runme.log [Mon Feb 12 18:09:48 2018] Launched impl_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 261 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7z010_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/TopSys.bit} [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7z010_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 100 seconds
+selectCodeEditor("Delay.v", 60, 208); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 283, 406); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 269 seconds
+selectCodeEditor("Delay.v", 436, 526); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 96 seconds
+selectCodeEditor("Delay.v", 339, 549); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 307, 493); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Mon Feb 12 18:22:28 2018] Launched synth_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/synth_1/runme.log [Mon Feb 12 18:22:28 2018] Launched impl_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 166 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7z010_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/TopSys.bit} [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7z010_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 314 seconds
+selectCodeEditor("Delay.v", 66, 450); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 138, 225); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 217, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 215, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 217, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 264, 387); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 44, 558); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 64, 546); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 63, 449); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("Delay.v", 409, 517); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Mon Feb 12 18:31:10 2018] Launched synth_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/synth_1/runme.log [Mon Feb 12 18:31:10 2018] Launched impl_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/runme.log 
+// Elapsed time: 56 seconds
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (p:JPanel, cd:JFrame)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+selectCodeEditor("Delay.v", 47, 561); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 49, 554); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 42, 557); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 33, 551); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 54, 551); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 43, 545); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 375, 589); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("Delay.v", 176, 351); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 308, 412); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 849 MB. GUI used memory: 128 MB. Current time: 2/12/18 6:32:38 PM GMT
+selectCodeEditor("Delay.v", 359, 496); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Delay.v", 128, 401); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Delay.v", 144, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 295, 321); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("Delay.v", 362, 488); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 345, 507); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 257, 497); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 263, 498); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("Delay.v", 342, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Delay.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 359, 502); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 365, 501); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Delay.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 363, 498); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 382, 527); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 361, 502); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 354, 523); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 495, 503); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Delay.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 532, 544); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 495, 522); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 488, 441); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 28 seconds
+selectCodeEditor("Delay.v", 472, 451); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 442, 484); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 350, 313); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Delay.v", 376, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Mon Feb 12 18:34:40 2018] Launched synth_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/synth_1/runme.log [Mon Feb 12 18:34:40 2018] Launched impl_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/runme.log 
+// Elapsed time: 619 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// Elapsed time: 671 seconds
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (p:JPanel, cd:JFrame)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 849 MB. GUI used memory: 96 MB. Current time: 2/12/18 7:02:39 PM GMT
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279777766A 
+// TclEventType: HW_SERVER_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 849 MB. GUI used memory: 84 MB. Current time: 2/12/18 7:32:39 PM GMT
+// Elapsed time: 2763 seconds
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Mon Feb 12 19:42:26 2018] Launched synth_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/synth_1/runme.log [Mon Feb 12 19:42:26 2018] Launched impl_1... Run output will be captured here: C:/Users/Vignesh/Documents/FinalYearProject/Zybo_Audio/ZyboAudio/ZyboAudio.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// Elapsed time: 726 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Serial I/O Links", 2); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
